@@ -13,12 +13,13 @@
 </head>
 
 <body>
-<main class="container-fluid px-5 py-2">
+<main class="container py-2 w-75">
     <h1>Google Sheets Style Guide</h1>
     <div>
         <h2>Idea</h2>
         <hr>
-        <p>bla bla bla</p>
+        <p>This is a set of guidelines that can help separate entities in your tables. It can be useful to easily find the right ones and distinguish them from each other. Also, since named functions can be exported, naming them is especially important.</p>
+        <p>The guide will be expanded and updated from time to time, so feel free to share, comment, and suggest improvements.</p>
     </div>
     <div>
         <h2>Rules</h2>
@@ -26,11 +27,14 @@
         <h3>1 Naming Rules</h3>
         <hr>
         <h4>1.1 Named Ranges</h4>
-        <p> bla bla bla </p>
+        <p>Uppercase with underscores: <code>NAMED_RANGE</code>.</p>
+        <p>This naming allows you to distinguish your ranges from all functions and keeps the appearance of the letters in the global space ('cause all of them ar uppercase).</p>
         <h4>1.2 Named Functions</h4>
-        <p> bla bla bla </p>
+        <p>Uppercase starting & with underscores: <code>_NAMED_FUNCTION</code>.</p>
+        <p>Named functions are worth starting with the underscore to filter them out from the standard ones. Standard functions use a dot as a separator but named functions can only have the underscore.</p>
         <h4>1.3 Function Arguments</h4>
-        <p> bla bla bla </p>
+        <p>Lowercase with underscores: <code>arg_name</code>.</p>
+        <p>You can use named ranges in functions, so it's better use a different case to distinguish between them and func args.</p>
         <h3>2 Coloring Rules</h3>
         <hr>
         <p> #todo :) </p>
