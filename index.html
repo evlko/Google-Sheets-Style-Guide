@@ -29,13 +29,25 @@
         <h4>1.1 Named Ranges</h4>
         <p>Uppercase with underscores: <code>NAMED_RANGE</code>.</p>
         <p>This naming allows you to distinguish your ranges from all functions and keeps the appearance of the letters in the global space ('cause all of them are uppercase).</p>
-        <h4>1.2 Named Functions</h4>
+        <h4>1.2 Coefficients</h4>
+        <p>The coefficient is a named range consisting of one cell and which depends on other cells. To such a range add <code>"_COEFF"</code> to the end, you get, for example, <code>"STEAM_REVENUE_COEFF"</code>.</p>
+        <h4>1.3 Named Functions</h4>
         <p>Uppercase starting & with underscores: <code>_NAMED_FUNCTION</code>.</p>
         <p>Named functions are worth starting with the underscore to filter them out from the standard ones. Standard functions use a dot as a separator but named functions can only have the underscore.</p>
-        <h4>1.3 Function Arguments</h4>
+        <h4>1.4 Function Arguments</h4>
         <p>Lowercase with underscores: <code>arg_name</code>.</p>
         <p>You can use named ranges in functions, so it's better to use a different case to distinguish between them and func args.</p>
-        <h3>2 Coloring Rules</h3>
+        <h4>1.5 Sheets</h4>
+        <p>PascalCase but with blanks: <code>Sheet Name</code>.</p>
+        <h3>2 Sheets</h3>
+        <hr>
+        <h4>2.1 General</h4>
+        <p>Main Sheet. Contains all the necessary information about the table (purpose, what you need to know, references, color rules). It always comes first.</p>
+        <h4>2.2 Coefficients</h4>
+        <p>Coefficients Sheet. Contains the calculation of all possible coefficients. More about them in 1.2.</p>
+        <h4>2.3 Pivot</h4>
+        <p>Pivot Table. Since such a table is created on the basis of some sheet and there may be several of them, we start with <code>Pivot</code>, then the name of the base sheet, then the number: <code>Pivot Sheet Name 1</code></p>
+        <h3>3 Coloring Rules</h3>
         <hr>
         <p> #todo :) </p>
     </div>
